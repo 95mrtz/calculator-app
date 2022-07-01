@@ -1,10 +1,19 @@
 function ThemeSelector(props) {
-    return (
+  return (
+    <div className="p-7 w-80 flex flex-row justify-around items-center">
+      <p
+        className="text-txt-white font-light tracking-wide"
+      >
+        {" "}
+        T H E M E :{" "}
+      </p>
       <div>
-        <p> theme </p>
-        <button> esto sera un selector </button>
+        <button className="rounded-full	bg-red p-3"> 1 </button>
+        <button className="rounded-full	bg-red p-3"> 2 </button>
+        <button className="rounded-full	bg-red p-3"> 3 </button>
       </div>
-    );
-  }
-  
-  export default ThemeSelector;
+    </div>
+  );
+}
+
+export default ThemeSelector;
